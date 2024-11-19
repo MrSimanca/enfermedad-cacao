@@ -1,10 +1,10 @@
 import streamlit as st
-from tensorflow.keras.models import load_model
-from PIL import Image, ImageOps
+from tensorflow.keras.models import load_model # type: ignore
+from PIL import Image, ImageOps # type: ignore
 import numpy as np
 import logging
 import bcrypt
-from io import BytesIO
+from io import BytesIO # type: ignore
 import streamlit.components.v1 as components
 
 # Configurar logging
