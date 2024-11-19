@@ -4,3 +4,7 @@ numpy
 pillow
 bcrypt
 logging
+Image
+ImageOps
+BytesIO
+streamlit.components.v1
